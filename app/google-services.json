@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "864656346018",
+    "firebase_url": "https://mercado-5b659.firebaseio.com",
+    "project_id": "mercado-5b659",
+    "storage_bucket": "mercado-5b659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864656346018:android:59b797cb9991d8b9",
+        "android_client_info": {
+          "package_name": "com.giulliano.mercado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864656346018-pnn30dttovt4cidjpr6hhktck1ipnred.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLYihoyEDj153k-qsd_8FQYwADACcUWTI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
