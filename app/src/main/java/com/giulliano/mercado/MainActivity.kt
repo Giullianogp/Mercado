@@ -1,10 +1,9 @@
 package com.giulliano.mercado
 
-import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.giulliano.mercado.Model.Item
+import android.support.v7.app.AppCompatActivity
+import com.giulliano.mercado.viewModel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,12 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
 
-        viewModel.getItens().observe(this, Observer { itens ->
 
-            itens?.forEach { item: Item ->
-
-                item.descricao
-            }
-        })
     }
 }
